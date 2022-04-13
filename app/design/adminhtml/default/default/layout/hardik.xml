@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <hardik_adminhtml_hardik_index>
+        <reference name="content">
+            <block type="hardik/adminhtml_hardik" name="hardik" />
+        </reference>
+    </hardik_adminhtml_hardik_index>
+</layout>

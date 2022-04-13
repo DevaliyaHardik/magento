@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout>
+	<page_adminhtml_page_index>
+		<reference name="content">
+            <block type="page/adminhtml_page" name="page_index"></block>
+        </reference>
+	</page_adminhtml_page_index>
+    <!-- <page_adminhtml_page_new>
+        <reference name="content">
+            <block type="page/adminhtml_page_index_edit" name="page_index_edit"></block>
+        </reference>
+    </page_adminhtml_page_new> -->
+</layout>
