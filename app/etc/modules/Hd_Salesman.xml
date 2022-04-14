@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hd_Salesman>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Hd_Salesman>
+    </modules>
+</config>

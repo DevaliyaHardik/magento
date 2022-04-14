@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+ <config>
+    <menu>
+        <hardik module="hardik">
+            <title>Hardik</title>
+            <sort_order>72</sort_order>
+            <children>
+                <items module="hardik">
+                    <title>Manage Student</title>
+                    <sort_order>0</sort_order>
+                    <action>hardik/adminhtml_hardik</action>
+                </items>
+            </children>
+        </hardik>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <hardik>
+                        <title>Hardik Module</title>
+                        <sort_order>201</sort_order>
+                    </hardik>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <layout>
+        <updates>
+            <hardik>
+                <file>hardik.xml</file>
+            </hardik>
+        </updates>
+    </layout>
+ </config>
