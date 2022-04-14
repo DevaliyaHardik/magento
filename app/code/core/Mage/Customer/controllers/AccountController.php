@@ -115,7 +115,6 @@ class Mage_Customer_AccountController extends Mage_Core_Controller_Front_Action
         $this->getLayout()->getBlock('content')->append(
             $this->getLayout()->createBlock('customer/account_dashboard')
         );
-        
         $this->getLayout()->getBlock('head')->setTitle($this->__('My Account'));
         $this->renderLayout();
     }

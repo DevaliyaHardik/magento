@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<layout>
-	<page_adminhtml_page_index>
-		<reference name="content">
-            <block type="page/adminhtml_page" name="page_index"></block>
-        </reference>
-	</page_adminhtml_page_index>
-</layout>
