@@ -47,30 +47,30 @@ class Ccc_Page_Adminhtml_PageController extends Mage_Adminhtml_Controller_Action
 
     public function saveAction()
     {
-    if ( $this->getRequest()->getPost() ) {
-    try {
-    $postData = $this->getRequest()->getPost();
-    $pageModel = Mage::getModel('page/page');
+        if ( $this->getRequest()->getPost() ) {
+            try {
+                $postData = $this->getRequest()->getPost();
+                $pageModel = Mage::getModel('page/page');
 
-    $pageModel->setId($this->getRequest()->getParam('id'))
-    ->setName($postData['name'])
-    ->setCode($postData['code'])
-    ->setValue($postData['value'])
-    ->save();
+                $pageModel->setId($this->getRequest()->getParam('id'))
+                ->setName($postData['name'])
+                ->setCode($postData['code'])
+                ->setValue($postData['value'])
+                ->save();
 
-    Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('adminhtml')->__('Data was successfully saved'));
-    Mage::getSingleton('adminhtml/session')->setpageData(false);
+                Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('adminhtml')->__('Data was successfully saved'));
+                Mage::getSingleton('adminhtml/session')->setpageData(false);
 
-    $this->_redirect('*/*/');
-    return;
-    } catch (Exception $e) {
-    Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
-    Mage::getSingleton('adminhtml/session')->setpageData($this->getRequest()->getPost());
-    $this->_redirect('*/*/edit', array('id' => $this->getRequest()->getParam('id')));
-    return;
-    }
-    }
-    $this->_redirect('*/*/');
+                $this->_redirect('*/*/');
+                return;
+            } catch (Exception $e) {
+                Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+                Mage::getSingleton('adminhtml/session')->setpageData($this->getRequest()->getPost());
+                $this->_redirect('*/*/edit', array('id' => $this->getRequest()->getParam('id')));
+                return;
+            }
+        }
+        $this->_redirect('*/*/');
     }
 
     public function deleteAction()

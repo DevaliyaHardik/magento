@@ -4960,3 +4960,1603 @@ Stack trace:
 #14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
 #15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
 #16 {main}
+2022-04-13T15:18:41+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\controllers\IndexController.php(81): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Adminhtml_IndexController->loginAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('login')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:18:42+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\controllers\IndexController.php(81): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Adminhtml_IndexController->loginAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('login')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:18:52+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\controllers\DashboardController.php(40): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Adminhtml_DashboardController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:18:57+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:18:57+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Salesman_Block_Adminhtml_Salesman in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Salesman_B...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('salesman/adminh...', 'salesman')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('salesman/adminh...', 'salesman')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:19:42+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:19:42+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Salesman_Block_Adminhtml_Salesman in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Salesman_B...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('salesman/adminh...', 'salesman_index')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('salesman/adminh...', 'salesman_index')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:21:05+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:21:05+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Salesman_Block_Adminhtml_Salesman in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Salesman_B...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('salesman/adminh...', 'salesman_index')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('salesman/adminh...', 'salesman_index')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:27:45+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:27:46+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Salesman_Block_Adminhtml_Salesman in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Salesman_B...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('salesman/adminh...', 'salesman_index')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('salesman/adminh...', 'salesman_index')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:31:05+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:31:05+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Mage_Salesman_Block_Adminhtml_Salesman in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Mage_Salesman_B...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('salesman/adminh...', 'salesman_index')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('salesman/adminh...', 'salesman_index')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:31:28+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:32:48+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:33:16+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:33:21+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:45:20+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:46:41+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:54:21+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:55:49+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:56:02+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:57:21+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:57:33+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:57:52+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:57:58+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T15:58:02+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:14:16+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:14:52+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:14:56+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:15:31+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:15:49+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:15:52+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:16:20+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:16:24+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:17:31+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:17:43+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:18:16+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:18:18+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:18:48+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:19:37+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:19:44+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:20:09+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:20:11+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:20:16+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:20:17+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:20:19+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:20:59+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:21:01+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:21:13+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:21:49+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:21:51+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:22:33+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:23:28+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:23:31+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:23:33+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:23:35+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:23:37+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:23:39+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:23:51+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:24:38+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:24:41+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:24:43+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-13T16:24:45+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:08:40+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\controllers\IndexController.php(81): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Adminhtml_IndexController->loginAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('login')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:08:41+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\controllers\IndexController.php(81): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Adminhtml_IndexController->loginAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('login')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:08:50+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\controllers\IndexController.php(81): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Adminhtml_IndexController->loginAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('login')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:08:57+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\controllers\DashboardController.php(40): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Adminhtml_DashboardController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:09:36+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:09:39+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:10:18+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:12:53+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:12:56+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:12:59+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:13:27+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:13:36+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:13:38+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:13:40+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:13:45+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(22): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->editAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2022-04-14T03:13:49+00:00 ERR (3): 
+Mage_Core_Exception: Invalid block type: Ccc_Page_Block_Js_Translate in C:\xampp\htdocs\magento\app\Mage.php:595
+Stack trace:
+#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(495): Mage::throwException('Invalid block t...')
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('Ccc_Page_Block_...', Array)
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(472): Mage_Core_Model_Layout->createBlock('page/js_transla...', 'js_translate')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(239): Mage_Core_Model_Layout->addBlock('page/js_transla...', 'js_translate')
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Adminhtml\Controller\Action.php(275): Mage_Core_Controller_Varien_Action->loadLayout(NULL, true, true)
+#9 C:\xampp\htdocs\magento\app\code\local\Hd\Salesman\Controllers\Adminhtml\SalesmanController.php(8): Mage_Adminhtml_Controller_Action->loadLayout()
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Salesman_Adminhtml_SalesmanController->indexAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
