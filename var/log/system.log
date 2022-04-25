@@ -1,0 +1,21 @@
+2022-04-21T02:19:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 47: parser error : Opening and ending tag mismatch: global line 41 and blocks  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T02:19:16+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/blocks&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T02:19:16+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T02:19:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 51: parser error : Opening and ending tag mismatch: config line 41 and blocks  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T02:19:16+00:00 ERR (3): Warning: simplexml_load_string():         &lt;/blocks&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T02:19:16+00:00 ERR (3): Warning: simplexml_load_string():                  ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T02:19:16+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 52: parser error : Extra content at the end of the document  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T02:19:16+00:00 ERR (3): Warning: simplexml_load_string():         &lt;models&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T02:19:16+00:00 ERR (3): Warning: simplexml_load_string():         ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T05:46:36+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 9: parser error : Start tag expected, '&lt;' not found  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T05:46:36+00:00 ERR (3): Warning: simplexml_load_string(): &lt;/config&gt; --&gt;  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T05:46:36+00:00 ERR (3): Warning: simplexml_load_string():              ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T12:51:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 41: parser error : EndTag: '&lt;/' not found  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T12:51:48+00:00 ERR (3): Warning: simplexml_load_string():    in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T12:51:48+00:00 ERR (3): Warning: simplexml_load_string():  ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T12:52:07+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 41: parser error : EndTag: '&lt;/' not found  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T12:52:07+00:00 ERR (3): Warning: simplexml_load_string():    in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T12:52:07+00:00 ERR (3): Warning: simplexml_load_string():  ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T12:53:07+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 41: parser error : EndTag: '&lt;/' not found  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T12:53:07+00:00 ERR (3): Warning: simplexml_load_string():    in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-04-21T12:53:07+00:00 ERR (3): Warning: simplexml_load_string():  ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510

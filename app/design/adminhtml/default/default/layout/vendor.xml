@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<layout>
+	<vendor_adminhtml_vendor_index>
+		<reference name="content">
+            <block type="vendor/adminhtml_vendor_index" name="vendor_index"></block>
+        </reference>
+	</vendor_adminhtml_vendor_index>
+	<!-- <vendor_adminhtml_vendor_new>
+        <reference name="content">
+            <block type="vendor/adminhtml_vendor_edit" name="vendor_new"></block>
+        </reference>
+        <reference name="left">
+            <block type="vendor/adminhtml_vendor_edit_tabs" name="vendor_new_tabs"></block>
+        </reference>
+    </vendor_adminhtml_vendor_new> -->
+    <!-- <vendor_adminhtml_vendor_edit>
+        <reference name="content">
+            <block type="vendor/adminhtml_vendor_edit" name="vendor_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="vendor/adminhtml_vendor_edit_tabs" name="vendor_edit_tabs"></block>
+        </reference>
+    </vendor_adminhtml_vendor_edit> -->
+</layout>

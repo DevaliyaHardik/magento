@@ -1,10 +1,13 @@
-<?php
-class Hd_Salesman_Model_Resource_Salesman extends Mage_Core_Model_Resource_Db_Abstract{
-
-    public function _construct()
+<?php 
+class Hd_Salesman_Model_Resource_Salesman extends Mage_Eav_Model_Entity_Abstract
+{
+    public function __construct()
     {
-        $this->_init('salesman/salesman','salesman_id');
+        $resource = Mage::getSingleton('core/resource');
+        $this->setType('salesman');
+        $this->setConnection(
+            $resource->getConnection('salesman_read'),
+            $resource->getConnection('salesman_write')
+        );
     }
 }
-
-?>

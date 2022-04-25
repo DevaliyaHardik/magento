@@ -518,6 +518,7 @@ final class Mage
         if (!self::registry($registryKey)) {
             self::register($registryKey, self::getResourceModel($modelClass, $arguments));
         }
+
         return self::registry($registryKey);
     }
 

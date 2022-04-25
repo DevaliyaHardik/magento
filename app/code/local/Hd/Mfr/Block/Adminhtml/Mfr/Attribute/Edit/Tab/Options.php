@@ -1,0 +1,4 @@
+<?php
+class Hd_Mfr_Block_Adminhtml_Mfr_Attribute_Edit_Tab_Options extends Mage_Eav_Block_Adminhtml_Attribute_Edit_Options_Abstract {
+
+}

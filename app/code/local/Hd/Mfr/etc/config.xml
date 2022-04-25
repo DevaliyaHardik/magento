@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Hd_Mfr>
+            <version>1.0.1</version>
+        </Hd_Mfr>
+    </modules>  
+    <admin>
+        <routers>
+            <mfr>
+                <use>admin</use>
+                <args>
+                    <module>Hd_Mfr</module>
+                    <frontName>mfr</frontName>
+                </args>
+            </mfr>
+        </routers>
+    </admin>
+    <adminhtml>
+        <menu>
+            <mfr>
+                <title>Mfr</title>
+                <sort_order>72</sort_order>
+                <children>
+                    <mfr>
+                        <title>Manage Mfr</title>
+                        <sort_order>100</sort_order>
+                        <action>mfr/adminhtml_mfr</action>
+                    </mfr>
+                    <mfr_attribute>
+                        <title>Attribute</title>
+                        <sort_order>100</sort_order>
+                        <children>
+                            <mfr_attribute>
+                                <title>Manage Attribute</title>
+                                <sort_order>100</sort_order>
+                                <action>mfr/adminhtml_mfr_attribute</action>
+                            </mfr_attribute>
+                            <mfr_set>
+                                <title>Manage Attribute Set</title>
+                                <sort_order>100</sort_order>
+                                <action>mfr/adminhtml_mfr_set</action>
+                            </mfr_set>
+                        </children>
+                    </mfr_attribute>
+                </children>
+            </mfr>
+        </menu>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <mfr translate="title">
+                            <title>Mfr</title>
+                            <sort_order>1000</sort_order>
+                            <children>
+                                <alert translate="title">
+                                    <title>Manage Mfr</title>
+                                </alert>
+
+                                <alert translate="title">
+                                    <title>Manage Attribute</title>
+                                </alert>
+
+                                <alert translate="title">
+                                    <title>Manage Attribute set</title>
+                                </alert>
+                                
+                            </children>
+                        </mfr>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <layout>
+            <updates>
+                <mfr>
+                    <file>mfr.xml</file>
+                </mfr>
+            </updates>
+        </layout>       
+    </adminhtml>
+    <global>
+        <helpers>
+            <mfr>
+                <class>Hd_Mfr_Helper</class>
+            </mfr>
+        </helpers> 
+        <blocks>
+            <mfr>
+                <class>Hd_Mfr_Block</class>
+            </mfr>
+        </blocks>
+        <models>
+            <mfr>
+                <class>Hd_Mfr_Model</class>
+                <resourceModel>mfr_resource</resourceModel>
+            </mfr>
+            <mfr_resource>
+                <class>Hd_Mfr_Model_Resource</class>
+                <entities>
+                    <mfr_entity>
+                        <table>mfr_entity</table>
+                    </mfr_entity>
+                    <mfr_entity_datetime>
+                        <table>mfr_entity_datetime</table>
+                    </mfr_entity_datetime>
+                    <mfr_entity_decimal>
+                        <table>mfr_entity_decimal</table>
+                    </mfr_entity_decimal>
+                    <mfr_entity_int>
+                        <table>mfr_entity_int</table>
+                    </mfr_entity_int>
+                    <mfr_entity_text>
+                        <table>mfr_entity_text</table>
+                    </mfr_entity_text>
+                    <mfr_entity_varchar>
+                        <table>mfr_entity_varchar</table>
+                    </mfr_entity_varchar>
+                    <mfr_entity_char>
+                        <table>mfr_entity_char</table>
+                    </mfr_entity_char> 
+                </entities>
+            </mfr_resource>
+        </models>       
+        <resources>
+            <mfr_setup>
+                <setup>
+                    <module>Hd_Mfr</module>
+                    <class>Hd_Mfr_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </mfr_setup>
+            <mfr_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </mfr_write>
+            <mfr_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </mfr_read>
+        </resources>    
+       </global>
+</config>
+ 

@@ -323,7 +323,6 @@ class Mage_Eav_Model_Config
             } else {
                 $entityType->loadByCode($code);
             }
-
             if (!$entityType->getId()) {
                 Mage::throwException(Mage::helper('eav')->__('Invalid entity_type specified: %s', $code));
             }

@@ -1,7 +1,9 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <config>
     <modules>
-        <version>1.0.1</version>
+        <Hd_Salesman>
+            <version>1.0.0</version>
+        </Hd_Salesman>
     </modules>
     <admin>
         <routers>
@@ -15,7 +17,7 @@
         </routers>
     </admin>
     <adminhtml>
-        <menu>
+        <!-- <menu>
             <salesman module="salesman">
                 <title>Salesman</title>
                 <sort_order>80</sort_order>
@@ -27,7 +29,7 @@
                     </items>
                 </children>
             </salesman>
-        </menu>
+        </menu> -->
         <layout>
             <updates>
                 <salesman>
@@ -46,7 +48,7 @@
             <salesman>
                 <class>Hd_Salesman_Block</class>
             </salesman>
-        </blocks>
+        </blocks>       
         <models>
             <salesman>
                 <class>Hd_Salesman_Model</class>
@@ -54,18 +56,36 @@
             </salesman>
             <salesman_resource>
                 <class>Hd_Salesman_Model_Resource</class>
-                <deprecatedNode>salesman_mysql4</deprecatedNode>
                 <entities>
-                    <salesman>
-                        <table>salesman</table>
-                    </salesman>
+                    <salesman_entity>
+                        <table>salesman_entity</table>
+                    </salesman_entity>
+                    <salesman_entity_datetime>
+                        <table>salesman_entity_datetime</table>
+                    </salesman_entity_datetime>
+                    <salesman_entity_decimal>
+                        <table>salesman_entity_decimal</table>
+                    </salesman_entity_decimal>
+                    <salesman_entity_int>
+                        <table>salesman_entity_int</table>
+                    </salesman_entity_int>
+                    <salesman_entity_text>
+                        <table>salesman_entity_text</table>
+                    </salesman_entity_text>
+                    <salesman_entity_varchar>
+                        <table>salesman_entity_varchar</table>
+                    </salesman_entity_varchar>
+                    <salesman_entity_char>
+                        <table>salesman_entity_char</table>
+                    </salesman_entity_char> 
                 </entities>
             </salesman_resource>
-        </models>
+        </models>       
         <resources>
             <salesman_setup>
                 <setup>
                     <module>Hd_Salesman</module>
+                    <class>Hd_Salesman_Model_Resource_Setup</class>
                 </setup>
                 <connection>
                     <use>core_setup</use>
@@ -81,6 +101,6 @@
                     <use>core_read</use>
                 </connection>
             </salesman_read>
-        </resources>
+        </resources>    
     </global>
 </config>

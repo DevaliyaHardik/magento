@@ -5,4 +5,20 @@
             <block type="salesman/adminhtml_salesman" name="salesman_index"></block>
         </reference>
 	</salesman_adminhtml_salesman_index>
+	<!-- <salesman_adminhtml_salesman_new>
+        <reference name="content">
+            <block type="salesman/adminhtml_salesman_edit" name="salesman_new"></block>
+        </reference>
+        <reference name="left">
+            <block type="salesman/adminhtml_salesman_edit_tabs" name="salesman_new_tabs"></block>
+        </reference>
+    </salesman_adminhtml_salesman_new> -->
+    <!-- <salesman_adminhtml_salesman_edit>
+        <reference name="content">
+            <block type="salesman/adminhtml_salesman_edit" name="salesman_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="salesman/adminhtml_salesman_edit_tabs" name="salesman_edit_tabs"></block>
+        </reference>
+    </salesman_adminhtml_salesman_edit> -->
 </layout>

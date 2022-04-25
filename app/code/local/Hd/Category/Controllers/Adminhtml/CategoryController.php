@@ -18,8 +18,8 @@ class Hd_Category_Adminhtml_CategoryController extends Mage_Adminhtml_Controller
             Mage::register('category_data', $categoryModel);
             $this->loadLayout();
             $this->_setActiveMenu('category/category');
-            $this->_addContent($this->getLayout()->createBlock('category/adminhtml_category_edit'))
-			->_addLeft($this->getLayout()->createBlock('category/adminhtml_category_edit_tabs'));
+            // $this->_addContent($this->getLayout()->createBlock('category/adminhtml_category_edit'))
+			// ->_addLeft($this->getLayout()->createBlock('category/adminhtml_category_edit_tabs'));
 
             $this->renderLayout();
         }
