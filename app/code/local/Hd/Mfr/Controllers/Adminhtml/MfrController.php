@@ -73,7 +73,7 @@ class Hd_Mfr_Adminhtml_MfrController extends Mage_Adminhtml_Controller_Action
             if(!$id){
                 $model->setData('created_date', Mage::getModel('core/date')->date('Y-m-d H:i:s'));
             }
-            
+
             $model->save();
             Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('mfr')->__('Mfr saved successfully.'));
         }

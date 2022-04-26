@@ -2,7 +2,7 @@
 class Ccc_User_Block_Adminhtml_User_Attribute_Set_Main extends Mage_Adminhtml_Block_Catalog_Product_Attribute_Set_Main {
 
 	public function getMoveUrl() {
-		return $this->getUrl('*/user_set/save', array('id' => $this->_getSetId()));
+		return $this->getUrl('*/adminhtml_user_set/save', array('id' => $this->_getSetId()));
 	}
 
 	public function getGroupTreeJson() {

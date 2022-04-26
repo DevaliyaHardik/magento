@@ -13,7 +13,8 @@ class Ccc_User_Block_Adminhtml_User_Grid Extends Mage_Adminhtml_Block_Widget_Gri
 	protected function _prepareCollection() {
 		$collection = Mage::getModel('user/user')->getCollection()
 			->addAttributeToSelect('firstname')
-			->addAttributeToSelect('lastname');
+			->addAttributeToSelect('lastname')
+			->addAttributeToSelect('email');
 		$storeId = $this->_getStoreId();
 		$collection->joinAttribute(
 			'firstname',
@@ -26,6 +27,14 @@ class Ccc_User_Block_Adminhtml_User_Grid Extends Mage_Adminhtml_Block_Widget_Gri
 		$collection->joinAttribute(
 			'lastname',
 			'user/lastname',
+			'entity_id',
+			null,
+			'inner',
+			$storeId
+		);
+		$collection->joinAttribute(
+			'email',
+			'user/email',
 			'entity_id',
 			null,
 			'inner',
@@ -64,6 +73,13 @@ class Ccc_User_Block_Adminhtml_User_Grid Extends Mage_Adminhtml_Block_Widget_Gri
 				'header' => Mage::helper('user')->__('Last Name'),
 				'width' => '50px',
 				'index' => 'lastname',
+			]
+		);
+		$this->addColumn('email',
+			[
+				'header' => Mage::helper('user')->__('Email'),
+				'width' => '50px',
+				'index' => 'email',
 			]
 		);
 

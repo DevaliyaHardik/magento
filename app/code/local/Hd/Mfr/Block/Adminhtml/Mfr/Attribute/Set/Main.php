@@ -2,7 +2,7 @@
 class Hd_Mfr_Block_Adminhtml_Mfr_Attribute_Set_Main extends Mage_Adminhtml_Block_Catalog_Product_Attribute_Set_Main {
 
 	public function getMoveUrl() {
-		return $this->getUrl('*/mfr_set/save', array('id' => $this->_getSetId()));
+		return $this->getUrl('*/adminhtml_mfr_set/save', array('id' => $this->_getSetId()));
 	}
 
 	public function getGroupTreeJson() {
