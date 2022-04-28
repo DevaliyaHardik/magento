@@ -322,7 +322,6 @@ abstract class Zend_Controller_Response_Abstract
             #require_once 'Zend/Controller/Response/Exception.php';
             throw new Zend_Controller_Response_Exception('Cannot send headers; headers already sent in ' . $file . ', line ' . $line);
         }
-
         return !$ok;
     }
 

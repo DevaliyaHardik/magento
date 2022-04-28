@@ -1,0 +1,11 @@
+a:5:{i:0;s:67:"Invalid method Hd_Process_Model_Process::genrateEntries(Array
+(
+)
+)";i:1;s:908:"#0 C:\xampp\htdocs\magento\app\code\local\Hd\Process\Controllers\Adminhtml\Process\UploadController.php(76): Varien_Object->__call('genrateEntries', Array)
+#1 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Process_Adminhtml_Process_UploadController->exportCsvAction()
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('exportCsv')
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#5 C:\xampp\htdocs\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#6 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#7 {main}";s:3:"url";s:104:"/magento/index.php/process/adminhtml_process_upload/exportCsv/id/5/key/2379df9d9d57e3849ff26f1b6833e8ed/";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:5:"admin";}

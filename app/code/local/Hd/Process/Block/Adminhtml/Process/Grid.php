@@ -120,12 +120,17 @@ class Hd_Process_Block_Adminhtml_Process_Grid extends Mage_Adminhtml_Block_Widge
                     'url'       => array('base'=> '*/adminhtml_process_upload/execute'),
                     'field'     => 'id'
                 ),
+                array(
+                    'caption'   => Mage::helper('process')->__('Sample'),
+                    'url'       => array('base'=> '*/adminhtml_process_upload/exportCsv'),
+                    'field'     => 'id'
+                ),
             ),
             'filter'    => false,
             'sortable'  => false,
             'index'     => 'stores',
             'is_system' => true,
-    ));
+        ));
 
         return parent::_prepareColumns();
     }
