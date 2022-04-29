@@ -67,6 +67,11 @@ class Hd_Process_Block_Adminhtml_Process_Column_Grid extends Mage_Adminhtml_Bloc
             'index' => 'name',
         ));
 
+        $this->addColumn('sampleData', array(
+            'header' => Mage::helper('process')->__('Sample Data'),
+            'index' => 'sampleData',
+        ));
+
         $this->addColumn('required', array(
             'header' => Mage::helper('process')->__('Required'),
             'index' => 'required',

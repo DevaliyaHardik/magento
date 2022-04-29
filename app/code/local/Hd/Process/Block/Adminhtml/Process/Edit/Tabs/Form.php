@@ -69,9 +69,9 @@ class Hd_Process_Block_Adminhtml_Process_Edit_Tabs_Form extends Mage_Adminhtml_B
             'name' => 'fileName',
         ));
 
-        if ( Mage::getSingleton('adminhtml/session')->getProData() )
+        if ( Mage::getSingleton('adminhtml/session')->getProcessData() )
         {
-            $form->setValues(Mage::getSingleton('adminhtml/session')->getProData());
+            $form->setValues(Mage::getSingleton('adminhtml/session')->getProcessData());
             Mage::getSingleton('adminhtml/session')->setProData(null);
         } elseif ( Mage::registry('current_process') ) {
             $form->setValues(Mage::registry('current_process')->getData());

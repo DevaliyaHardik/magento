@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Hd_Process_Group>
-            <version>0.0.1</version>
-        </Hd_Process_Group>
+        <Hd_Process>
+            <version>1.0.4</version>
+        </Hd_Process>
     </modules>
     <admin>
         <routers>

@@ -1,7 +1,9 @@
 <?xml version="1.0" ?>
 <config>
     <modules>
-        <version>1.0.0</version>
+        <Hd_Category>
+            <version>1.0.3</version>
+        </Hd_Category>
     </modules>
     <admin>
         <routers>

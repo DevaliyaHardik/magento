@@ -12,7 +12,7 @@
       PRIMARY KEY (`category_id`)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-        ");
+    ");
 
 
 

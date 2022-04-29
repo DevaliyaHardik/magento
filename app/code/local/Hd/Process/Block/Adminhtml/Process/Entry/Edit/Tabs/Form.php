@@ -55,8 +55,8 @@ class Hd_Process_Block_Adminhtml_Process_Entry_Edit_Tabs_Form extends Mage_Admin
             'name' => 'data',
         ));    
 
-        if ( Mage::getSingleton('adminhtml/session')->getProData() ){
-            $form->setValues(Mage::getSingleton('adminhtml/session')->getProData());
+        if ( Mage::getSingleton('adminhtml/session')->getEntryData() ){
+            $form->setValues(Mage::getSingleton('adminhtml/session')->getEntryData());
             Mage::getSingleton('adminhtml/session')->setProData(null);
         } elseif ( Mage::registry('current_process_entry') ) {
             $form->setValues(Mage::registry('current_process_entry')->getData());

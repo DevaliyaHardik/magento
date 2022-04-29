@@ -40,16 +40,15 @@ class Hd_Process_Adminhtml_Process_ColumnController extends Mage_Adminhtml_Contr
             if (!$this->getRequest()->getPost()){   
                 Mage::getSingleton('adminhtml/session')->addError(Mage::helper('adminhtml')->__('Invalid request.'));   
             }
-            $id= ($this->getRequest()->getParam('id'));
+            $id= $this->getRequest()->getParam('id');
             $model = Mage::getModel('process/column')->load($id);
             $model->setData('entity_id',$id);
-
             $model->setData('name',$this->getRequest()->getPost('name')); 
+            $model->setData('sampleData',$this->getRequest()->getPost('sampleData')); 
             $model->setData('process_id',$this->getRequest()->getPost('process_id'));            
             $model->setData('required',$this->getRequest()->getPost('required'));            
             $model->setData('castingType',$this->getRequest()->getPost('castingType'));            
-            $model->setData('exception',$this->getRequest()->getPost('exception'));            
-           
+            $model->setData('exception',$this->getRequest()->getPost('exception'));   
             $model->save();
             Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('process')->__('Process Column saved successfully.'));
         }

@@ -31,6 +31,12 @@ class Hd_Process_Block_Adminhtml_Process_Column_Edit_Tabs_Form extends Mage_Admi
             'name' => 'name',
         ));
 
+        $fieldset->addField('sampleData', 'text', array(
+            'label' => Mage::helper('process')->__('Sample Data'),
+            'class' => 'required-entry',
+            'name' => 'sampleData',
+        ));
+
         $fieldset->addField('required', 'select', array(
             'label' => Mage::helper('process')->__('Required'),
             'class' => 'required-entry',
@@ -59,9 +65,9 @@ class Hd_Process_Block_Adminhtml_Process_Column_Edit_Tabs_Form extends Mage_Admi
             'name' => 'exception',
         ));    
 
-        if ( Mage::getSingleton('adminhtml/session')->getProData() )
+        if ( Mage::getSingleton('adminhtml/session')->getColumnData() )
         {
-        $form->setValues(Mage::getSingleton('adminhtml/session')->getProData());
+        $form->setValues(Mage::getSingleton('adminhtml/session')->getColumnData());
         Mage::getSingleton('adminhtml/session')->setProData(null);
         } elseif ( Mage::registry('current_process_column') ) {
         $form->setValues(Mage::registry('current_process_column')->getData());

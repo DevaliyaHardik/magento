@@ -16,9 +16,9 @@ class Hd_Process_Block_Adminhtml_Process_Group_Edit_Tabs_Form extends Mage_Admin
         'name' => 'name',
         ));
 
-        if ( Mage::getSingleton('adminhtml/session')->getProData() )
+        if ( Mage::getSingleton('adminhtml/session')->getGroupData() )
         {
-        $form->setValues(Mage::getSingleton('adminhtml/session')->getProData());
+        $form->setValues(Mage::getSingleton('adminhtml/session')->getGroupData());
         Mage::getSingleton('adminhtml/session')->setProData(null);
         } elseif ( Mage::registry('current_process_group') ) {
         $form->setValues(Mage::registry('current_process_group')->getData());

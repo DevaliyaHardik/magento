@@ -14,9 +14,9 @@ class Hd_Process_Block_Adminhtml_Process_Upload_Edit_Tabs_Form extends Mage_Admi
             'name' => 'fileName',
         ));
 
-        if ( Mage::getSingleton('adminhtml/session')->getProData() )
+        if ( Mage::getSingleton('adminhtml/session')->getUploadData() )
         {
-            $form->setValues(Mage::getSingleton('adminhtml/session')->getProData());
+            $form->setValues(Mage::getSingleton('adminhtml/session')->getUploadData());
             Mage::getSingleton('adminhtml/session')->setProData(null);
         } elseif ( Mage::registry('current_process_media') ) {
             $form->setValues(Mage::registry('current_process_media')->getData());
