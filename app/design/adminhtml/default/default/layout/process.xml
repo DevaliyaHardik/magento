@@ -65,4 +65,10 @@
             <block type="process/adminhtml_process_upload_edit_tabs" name="process_upload_edit_tabs"></block>
         </reference>
     </process_adminhtml_process_upload_uploadfile>
+    <process_adminhtml_process_upload_execute>
+        <reference name="content">
+            <block type="process/adminhtml_process_upload" name="process_exexute" template="process/upload.phtml" />
+        </reference>
+    </process_adminhtml_process_upload_execute>
+
 </layout>

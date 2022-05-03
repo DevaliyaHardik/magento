@@ -19,3 +19,4 @@
 2022-04-21T12:53:07+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 41: parser error : EndTag: '&lt;/' not found  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
 2022-04-21T12:53:07+00:00 ERR (3): Warning: simplexml_load_string():    in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
 2022-04-21T12:53:07+00:00 ERR (3): Warning: simplexml_load_string():  ^  in C:\xampp\htdocs\magento\lib\Varien\Simplexml\Config.php on line 510
+2022-05-02T06:32:40+00:00 ERR (3): Notice: Array to string conversion  in C:\xampp\htdocs\magento\lib\Varien\Object.php on line 245

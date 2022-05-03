@@ -84,6 +84,9 @@
                     <entry>
                         <table>process_entry</table>
                     </entry>
+                    <category>
+                        <table>category</table>
+                    </category>
                 </entities>
             </process_resource>
         </models>

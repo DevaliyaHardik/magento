@@ -12,7 +12,7 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
 
     protected function _construct()
     {
-        $this->_init('process/process');
+        $this->_init('process/abstract');
     }
 
     public function getProcess()
@@ -159,10 +159,8 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
     protected function validateHeaders()
     {
         $requiredFiled = array_column($this->getRequiredFiled(),'name');
-        foreach ($requiredFiled as $key => $header) {
-            if(!in_array($header,$this->getHeaders())){
-                throw new Exception($header." Not in header.", 1);
-            }
+        if($missingHeaders = array_diff($requiredFiled, $this->getHeaders())){
+            throw new Exception("Mising Headers : ". implode(', ',$missingHeaders), 1); 
         }
     }
 
@@ -181,9 +179,9 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
                 $this->removeFiledData($key);
             }
         }
-        echo "<pre>";
-        print_r($this->getInvalidDatas());
-        print_r($this->getFiledDatas());exit;
+        // echo "<pre>";
+        // print_r($this->getInvalidDatas());
+        // print_r($this->getFiledDatas());exit;
     }
 
     public function validateRow($row)
@@ -323,10 +321,9 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
 
     protected function processEntry()
     {
-
         $entryModel = Mage::getModel('process/entry');
         $readConnection = $entryModel->getResource()->getReadConnection();
-        $readConnection->insertMultiple('process_entry',$this->getFiledDatas());
+        $readConnection->insertOnDuplicate($entryModel->getResource()->getMainTable(),$this->getFiledDatas());
     }
 
     public function getIdentifier($row)
@@ -341,15 +338,10 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
 
     protected function genrateInvalidDataReport()
     {
-        $invalid = [];
-        $invalid[] = $this->getHeaders();
-        $data = $this->getInvalidDatas();
-        foreach ($data as $key => $row) {
-            $invalid[] = $row;
-        }
         $csv = new Varien_File_Csv();
-        $csv->saveData($this->getFilePath(). DS . 'invalid.csv',$invalid);
-
+        $data = $this->getInvalidDatas();
+        array_splice($data, 0,0,[$this->getHeaders()]);
+        $csv->saveData($this->getFilePath(). DS .'invalid.csv',$data);
     }
 
     protected function genrateEntries()
@@ -370,8 +362,22 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
         $csv->saveData($this->getFilePath(). DS . 'entries.csv',$entries);
         return $entries;
     }
+
+    public function getRequired($row)
+    {
+        foreach ($row as $key => $value) {
+            if($value == 1){
+                $row[$key] = "Required";
+            }
+            else{
+                $row[$key] = "Not Required";
+            }
+        }
+        return $row;
+
+    }
     
-    public function getDefaultFile()
+    public function getSampleFile()
     {
         $columnModel = Mage::getModel('process/column');
         $select = $columnModel->getCollection()
@@ -380,6 +386,7 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
             ->columns(['name','sampleData','required'])
             ->where('process_id = ?', $this->getProcess()->getProcessId());
         $data = $columnModel->getResource()->getReadConnection()->fetchAll($select);
+        // print_r($this->getRequired(array_column($data,'required')));exit;
         $finalData = [array_column($data,'name'),array_column($data,'sampleData'),$this->getRequired(array_column($data,'required'))];
         $csv = new Varien_File_Csv();
         $csv->saveData($this->getFilePath(). DS . 'sample.csv',$finalData);

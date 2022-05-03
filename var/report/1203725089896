@@ -1,9 +1,0 @@
-a:5:{i:0;s:74:"Error write to file C:\xampp\htdocs\magento\media\process\import\samle.csv";i:1;s:1086:"#0 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(1080): Varien_Io_File->streamOpen('C:\\xampp\\htdocs...', 'r')
-#1 C:\xampp\htdocs\magento\app\code\local\Hd\Process\Controllers\Adminhtml\Process\UploadController.php(88): Mage_Core_Controller_Varien_Action->_prepareDownloadResponse('sample.csv', Array)
-#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Hd_Process_Adminhtml_Process_UploadController->exportCsvAction()
-#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('exportCsv')
-#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
-#5 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
-#6 C:\xampp\htdocs\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
-#7 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
-#8 {main}";s:3:"url";s:104:"/magento/index.php/process/adminhtml_process_upload/exportCsv/id/1/key/1b14a445075d33b9f2154b499d9452c7/";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:5:"admin";}
