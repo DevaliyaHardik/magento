@@ -76,6 +76,7 @@ class Hd_Process_Adminhtml_ProcessController extends Mage_Adminhtml_Controller_A
         }
         $this->_redirect('process/adminhtml_process/index');
     }   
+
 }
 
 ?>

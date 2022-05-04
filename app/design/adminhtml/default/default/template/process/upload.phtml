@@ -11,37 +11,34 @@
         execute : function(){
             const self = this;
             $.ajax({
-                url: "<?php echo Mage::getUrl('process/adminhtml_process_upload/processEntry/key',[]); ?>",
-                type: 'GET',
-                data: {'key' : 'ecfca84b2e15b532415f483cbf7d99ec'},
+                url: "<?php echo Mage::getUrl('process/adminhtml_process_upload/processEntry/'); ?>",
+                type: 'POST',
+                data: $("#processForm").serialize(),
+                dataType: 'json',
                 success: function(data){
-                    // alert(data);
-                    if(data.length <= 50){
-                        $("#process").html(data);
+                    console.log(data);
+                    if(data.message){
+                        $("#process").html(data.message);
+                    }
+                    if(data.status == "success" && data.reload == false){
                         self.execute();
                     }
-                    else{
-                        alert("Process executed successfully.");
-                        $("body").html(data);
+                    else if(data.status == "success" && data.reload == true){
+                        location.reload(true);
+                    }
+                    else if(data.status == 'failuer'){
+                        location.reload();
                     }
                 }             
             });
         },
-
-        redirect : function(){
-            $.ajax({
-                url: "<?php echo Mage::getUrl('process/adminhtml_process/index/key',[]); ?>",
-                type: 'GET',
-                data: {'key' : '597ed2f7359c094a7fa58a0689859de6'},
-                success: function(data){
-                    body.html(data);
-                }             
-            });
-        }
     }
     </script>
 </head>
 <body>
+    <form action="#" method="post" id="processForm">
+        <input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
+    </form>
     <h1 id="process">Processing</h1>
 
 <script type="text/javascript">

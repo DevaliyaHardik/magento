@@ -79,7 +79,32 @@ class Hd_Process_Adminhtml_Process_EntryController extends Mage_Adminhtml_Contro
         $this->_redirect('process/adminhtml_process_entry/index');
     }   
 
+    public function massDeleteAction() 
+    {
+        $sampleIds = $this->getRequest()->getParam('entry');
+        if(!is_array($sampleIds)){
+            Mage::getSingleton('adminhtml/session')->addError(Mage::helper('adminhtml')->__('Please select item(s)'));
+        } 
+        else 
+        {
+            try
+            {
+                foreach ($sampleIds as $sampleId)
+                {
+                    $sample = Mage::getModel('process/entry')->load($sampleId);
+                    $sample->delete();
 
+                }
+                Mage::getSingleton('adminhtml/session')->addSuccess(
+                Mage::helper('adminhtml')->__('Total of %d record(s) were successfully deleted', count($sampleIds)));
+            } 
+            catch (Exception $e)
+            {
+                Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+            }
+        }
+        $this->_redirect('process/adminhtml_process_entry/index');
+    }
 }
 
 ?>

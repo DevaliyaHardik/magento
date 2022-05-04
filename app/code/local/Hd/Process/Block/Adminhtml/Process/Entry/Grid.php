@@ -48,6 +48,13 @@ class Hd_Process_Block_Adminhtml_Process_Entry_Grid extends Mage_Adminhtml_Block
      */
     protected function _prepareColumns()
     {
+        $this->addColumn('entity_id', array(
+            'header'    => Mage::helper('process')->__('ID'),
+            'align'     =>'right',
+            'width'     => '50px',
+            'index'     => 'entity_id',
+          ));   
+  
         $this->addColumn('entry_id', array(
             'header' => Mage::helper('process')->__('ID'),
             'width' => '50px',
@@ -90,6 +97,18 @@ class Hd_Process_Block_Adminhtml_Process_Entry_Grid extends Mage_Adminhtml_Block
             'type' => 'date',
         ));
         return parent::_prepareColumns();
+    }
+
+    protected function _prepareMassaction()
+    {
+        $this->setMassactionIdField('entry_id');
+        $this->getMassactionBlock()->setFormFieldName('entry');
+
+        $this->getMassactionBlock()->addItem('delete', array(
+             'label'    => Mage::helper('process')->__('Delete'),
+             'url'      => $this->getUrl('*/*/massDelete'),
+             'confirm'  => Mage::helper('process')->__('Are you sure?')
+        ));
     }
 
     public function getRowUrl($row)

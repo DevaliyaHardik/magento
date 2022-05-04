@@ -363,6 +363,38 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
         return $entries;
     }
 
+    public function execute()
+    {
+        $time = date('Y-m-d h:s:i');
+        $entry = Mage::getModel('process/entry');
+        $select = $entry->getCollection()
+            ->getSelect()
+            ->where('process_id = ?', $this->getProcess()->getProcessId())
+            ->where('startTime IS NULL')
+            ->limit($this->getProcess()->getData('perRequestCount'));
+        $entryData = $entry->getResource()->getReadConnection()->fetchAll($select);
+        if(!$entryData){
+            throw new Exception("No recored remaining to execte", 1);
+        }
+        $where = 'entry_id IN('.implode(', ',array_column($entryData,'entry_id')).')';
+        $update = Mage::getSingleton('core/resource')->getConnection('core_write');
+        $update->update($entry->getResource()->getMainTable(), ['startTime' => $time], $where);
+        $this->import($entryData);
+        $update->update($entry->getResource()->getMainTable(), ['endTime' => $time], $where);
+    }
+
+    public function import($entryData)
+    {
+        foreach ($entryData as $key => $entry) {
+            $data = json_decode($entry['data']);
+            $requestModel = Mage::getModel($this->getProcess()->getData('requestModel'));
+            $requestModel->prepareDbRow($data);
+            if(!$requestModel->save()){
+                throw new Exception("Data was not processed", 1);
+            }
+        }
+    }
+
     public function getRequired($row)
     {
         foreach ($row as $key => $value) {
@@ -374,7 +406,6 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
             }
         }
         return $row;
-
     }
     
     public function getSampleFile()
