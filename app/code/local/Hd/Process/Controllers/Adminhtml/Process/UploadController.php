@@ -131,7 +131,7 @@ class Hd_Process_Adminhtml_Process_UploadController extends Mage_Adminhtml_Contr
             $responce['current'] = $sessionProcessEntry['currentRequest'] + 1;
             if($sessionProcessEntry['currentRequest'] == $sessionProcessEntry['totalRequest']){
                 $responce['reload'] = true;
-                $responce['message'] = "Complate ". $sessionProcessEntry['totalCount'] ." out of ". $sessionProcessEntry['totalCount'];
+                $responce['message'] = "Complate ". $sessionProcessEntry['totalCount'] ." recordes out of ". $sessionProcessEntry['totalCount'];
             }
             $sessionProcessEntry['currentRequest'] += 1;
             $this->getResponse()->setBody(Mage::helper('core')->jsonEncode($responce));
@@ -143,61 +143,6 @@ class Hd_Process_Adminhtml_Process_UploadController extends Mage_Adminhtml_Contr
         }
     }
     
-    // protected function _processEntryAction()
-    // {
-    //     // $this->getResponse()->setBody(Mage::helper('core')->jsonEncode(['reload' => "success",'status' => "success"]));
-    //     try {
-    //         $sessionProcessEntry = Mage::getSingleton('core/session')->getProcessEntryVariable();
-    //         print_zzr($sessionProcessEntry);
-    //         $process = Mage::getModel('process/process')->load($processId);
-    //         $entry = Mage::getModel('process/entry');
-    //         $select = $entry->getCollection()
-    //             ->getSelect()
-    //             ->reset(Zend_Db_Select::COLUMNS)
-    //             ->columns(['data'])
-    //             ->where('process_id = ?', $processId)
-    //             ->limit($perRequestCount,$currentRequest*$perRequestCount);
-    //         $data = $entry->getResource()->getReadConnection()->fetchAll($select);
-    //         foreach ($data as $key => $row) {
-    //             $data[$key] = json_decode($row['data']);
-    //         }
-    //         foreach ($data as $key => $row) {
-    //             $model = Mage::getModel($process->getData()['requestModel']);
-    //             $model->setData('name',$row->name);
-    //             $model->setData('description',$row->description);
-    //             $model->setData('link',$row->link);
-    //             $model->setData('is_fetured',$row->is_fetured);
-    //             $model->setData('sort_order',$row->sort_order);
-    //             if(!$model->save()){
-    //                 throw new Exception("Data already executed.", 1);
-    //             }
-    //         }
-    //         if($totalCount > $perRequestCount*($currentRequest)){
-    //             Mage::getSingleton('core/session')->setMyVariable(['processId' => $processId,'totalCount' => $totalCount,'perRequestCount' => $perRequestCount,'totalRequest' => $totalRequest,'currentRequest' => $currentRequest+1]);
-    //             echo "Complete ". $perRequestCount*$currentRequest ." out of ". $totalCount;
-    //             // $message = json_encode([
-    //             //     'redirect' => true,
-    //             //     'message' => "Complete ". $perRequestCount*$currentRequest ." out of ". $totalCount
-    //             // ]);
-    //         }
-    //         else{
-    //             // echo false;
-    //             Mage::getSingleton('adminhtml/session')->addSuccess('Data execute successfully.');
-    //             echo get_class($this->_redirect('process/adminhtml_process/index'));
-    //             // $message = json_encode([
-    //             //     'redirect' => false,
-    //             //     'message' => $this->_redirect('process/adminhtml_process/index'),
-    //             // ]);
-    //         }
-    //         // print_r($message);;
-    //         // $this->getResponse()->setBody(Zend_Json::encode(array('survey_decision_saved' => 1)));
-            
-    //     } catch (Exception $e) {
-    //         Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
-    //         echo get_class($this->_redirect('process/adminhtml_process/index'));
-    //     }
-    // }
-
     public function exportCsvAction()
     {
         $process = Mage::getModel('process/process')->load($this->getRequest()->getParam('id'));

@@ -386,9 +386,8 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
     public function import($entryData)
     {
         foreach ($entryData as $key => $entry) {
-            $data = json_decode($entry['data']);
             $requestModel = Mage::getModel($this->getProcess()->getData('requestModel'));
-            $requestModel->prepareDbRow($data);
+            $requestModel->setData(json_decode($entry['data'], true));
             if(!$requestModel->save()){
                 throw new Exception("Data was not processed", 1);
             }
