@@ -87,6 +87,9 @@
                     <category>
                         <table>category</table>
                     </category>
+                    <product>
+                        <table>product</table>
+                    </product>
                 </entities>
             </process_resource>
         </models>

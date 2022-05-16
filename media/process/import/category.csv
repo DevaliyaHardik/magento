@@ -1,50 +1,12 @@
-index,name,description,link,is_fetured,sort_order,few
-1,hardik1,this is description,shouse.com,1,1,s
-2,hardik2,this is description,shouse.com,1,2,s
-3,hardik3,this is description,shouse.com,1,3,s
-4,hardik4,,shouse.com,1,4,s
-5,hardik5,this is description,shouse.com,uhggh,5,s
-6,,this is description,shouse.com,1,6,s
-7,hardik7,this is description,shouse.com,1,7,s
-8,hardik8,this is description,shouse.com,1,8,s
-9,hardik9,this is description,shouse.com,1,9,s
-10,hardik10,this is description,shouse.com,1,10,s
-11,hardik11,this is description,shouse.com,1,11,s
-12,hardik12,this is description,shouse.com,1,12,s
-13,hardik13,this is description,shouse.com,1,13,s
-14,hardik14,this is description,shouse.com,1,14,s
-15,hardik15,this is description,shouse.com,1,15,s
-16,hardik16,this is description,shouse.com,1,16,s
-17,hardik17,this is description,shouse.com,1,17,s
-18,hardik18,this is description,shouse.com,1,18,s
-19,hardik19,this is description,shouse.com,1,19,s
-20,hardik20,this is description,shouse.com,1,20,s
-21,hardik21,this is description,shouse.com,1,21,s
-22,hardik22,this is description,shouse.com,1,22,s
-23,hardik23,this is description,shouse.com,1,23,s
-24,hardik24,this is description,shouse.com,1,24,s
-25,hardik25,this is description,shouse.com,1,25,s
-26,hardik26,this is description,shouse.com,1,26,s
-27,hardik27,this is description,shouse.com,1,27,s
-28,hardik28,this is description,shouse.com,1,28,s
-29,hardik29,this is description,shouse.com,1,29,s
-30,hardik30,this is description,shouse.com,1,30,s
-31,hardik31,this is description,shouse.com,1,31,s
-32,hardik32,this is description,shouse.com,1,32,s
-33,hardik33,this is description,shouse.com,1,33,s
-34,hardik34,this is description,shouse.com,1,34,s
-35,hardik35,this is description,shouse.com,1,35,s
-36,hardik36,this is description,shouse.com,1,36,s
-37,hardik37,this is description,shouse.com,1,37,s
-38,hardik38,this is description,shouse.com,1,38,s
-39,hardik39,this is description,shouse.com,1,39,s
-40,hardik40,this is description,shouse.com,1,40,s
-41,hardik41,this is description,shouse.com,1,41,s
-42,hardik42,this is description,shouse.com,1,42,s
-43,hardik43,this is description,shouse.com,1,43,s
-44,hardik44,this is description,shouse.com,1,44,s
-45,hardik45,this is description,shouse.com,1,45,s
-46,hardik46,this is description,shouse.com,1,46,s
-47,hardik47,this is description,shouse.com,1,47,s
-48,hardik48,this is description,shouse.com,1,48,s
-49,hardik49,this is description,shouse.com,1,49,s
+Index,name,link,description,status
+1,Bedroom,www.google.com,wdqenfkjwenw;evnewfneqjflunweifbenkfljqeh2bfweih,yes
+2,Bedroom/Bed,www.google.com,wdqenfkjwenw;evnewfneqjflunweifbenkfljqeh2bfweih,yes
+3,Bedroom/Bed/Headboard,www.google.com,wdqenfkjwenw;evnewfneqjflunweifbenkfljqeh2bfweih,yes
+4,Bedroom/Bed/Footboard,www.google.com,wdqenfkjwenw;evnewfneqjflunweifbenkfljqeh2bfweih,yes
+5,Bedroom/Dresser,www.google.com,wdqenfkjwenw;evnewfneqjflunweifbenkfljqeh2bfweih,yes
+6,Bedroom/Nightstand,www.google.com,wdqenfkjwenw;evnewfneqjflunweifbenkfljqeh2bfweih,yes
+7,Bedroom/Bench,www.google.com,wdqenfkjwenw;evnewfneqjflunweifbenkfljqeh2bfweih,yes
+8,Bedroom/Bench/Plastic,www.google.com,wdqenfkjwenw;evnewfneqjflunweifbenkfljqeh2bfweih,yes
+9,Bedroom/Bench/wood,www.google.com,wdqenfkjwenw;evnewfneqjflunweifbenkfljqeh2bfweih,yes
+10,Bedroom/Bench/Metel,www.google.com,wdqenfkjwenw;evnewfneqjflunweifbenkfljqeh2bfweih,yes
+11,Bedroom/Bench/rubber,www.google.com,wdqenfkjwenw;evnewfneqjflunweifbenkfljqeh2bfweih,yes

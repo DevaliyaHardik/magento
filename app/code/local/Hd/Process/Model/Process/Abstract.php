@@ -175,6 +175,7 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
                 $row = $this->validateRow($row);
                 $this->_prepareRow($row);
             }catch(Exception $e){
+                $this->currentRow['message'] = $e->getMessage();
                 $this->addInvalidData($this->currentRow);
                 $this->removeFiledData($key);
             }
@@ -211,7 +212,7 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
         $processColumn = $this->prepareProcessColumn();
         foreach ($this->currentRow as $key => $value) {
             try {
-                if($key == 'index'){
+                if($key == 'Index'){
                     $tmpRow[$key] = $value;
                     continue;
                 }
@@ -231,40 +232,41 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
 
     protected function validateRowValueCasting($value,$castingType,$required)
     {
-        if($required == 1){
-            if(empty($value)){
-                throw new Exception("Invalid", 1);
-            }
-            if($castingType == 1){
-                if(!$value = (int)$value){
-                    throw new Exception("Invalid", 1);
-                }
-                return $value;
-            }
-            elseif($castingType == 3){
-                if(!$value = (string)$value){
-                    throw new Exception("Invalid", 1);
-                }
-                return $value;
-            }        
-        }
-        else{
-            if(empty($value)){
-                return null;
-            }
-            if($castingType == 1){
-                if(!$value = (int)$value){
-                    return '';
-                }
-                return $value;
-            }
-            elseif($castingType == 3){
-                if(!$value = (string)$value){
-                    return '';
-                }
-                return $value;
-            }           
-        }
+        return $value;
+        // if($required == 1){
+        //     if(empty($value)){
+        //         throw new Exception("Invalid", 1);
+        //     }
+        //     if($castingType == 1){
+        //         if(!$value = (int)$value){
+        //             throw new Exception("Invalid", 1);
+        //         }
+        //         return $value;
+        //     }
+        //     elseif($castingType == 3){
+        //         if(!$value = (string)$value){
+        //             throw new Exception("Invalid", 1);
+        //         }
+        //         return $value;
+        //     }        
+        // }
+        // else{
+        //     if(empty($value)){
+        //         return null;
+        //     }
+        //     if($castingType == 1){
+        //         if(!$value = (int)$value){
+        //             return '';
+        //         }
+        //         return $value;
+        //     }
+        //     elseif($castingType == 3){
+        //         if(!$value = (string)$value){
+        //             return '';
+        //         }
+        //         return $value;
+        //     }           
+        // }
     }
 
     protected function readFile()
@@ -308,13 +310,13 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
             'identifier' => $this->getIdentifier($row),
             'data' => null,
         ];
-        $tabelRow = $this->prepareRow($row);
+        $tabelRow = $this->prepareRowForJson($row);
         $entry['data'] = json_encode($tabelRow);
         $row = $entry;
 
     }
 
-    public function prepareRow($row)
+    public function prepareRowForJson($row)
     {
         return $row;
     }
@@ -323,7 +325,9 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
     {
         $entryModel = Mage::getModel('process/entry');
         $readConnection = $entryModel->getResource()->getReadConnection();
-        $readConnection->insertOnDuplicate($entryModel->getResource()->getMainTable(),$this->getFiledDatas());
+        if($this->getFiledDatas()){
+            $readConnection->insertOnDuplicate($entryModel->getResource()->getMainTable(),$this->getFiledDatas());
+        }
     }
 
     public function getIdentifier($row)
@@ -339,8 +343,10 @@ class Hd_Process_Model_Process_Abstract extends Mage_Core_Model_Abstract
     protected function genrateInvalidDataReport()
     {
         $csv = new Varien_File_Csv();
+        $headers = $this->getHeaders();
+        array_push($headers,'message');
         $data = $this->getInvalidDatas();
-        array_splice($data, 0,0,[$this->getHeaders()]);
+        array_unshift($data, $headers);
         $csv->saveData($this->getFilePath(). DS .'invalid.csv',$data);
     }
 
