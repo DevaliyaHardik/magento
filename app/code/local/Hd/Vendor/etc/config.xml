@@ -40,7 +40,7 @@
 						<table>vendor_datetime</table>
 					</vendor_datetime>
 					<vendor_int>
-						<table>vendor_integer</table>
+						<table>vendor_int</table>
 					</vendor_int>
 					<vendor_varchar>
 						<table>vendor_varchar</table>

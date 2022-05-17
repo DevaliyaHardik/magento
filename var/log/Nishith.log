@@ -1,0 +1,26 @@
+2022-05-16T12:16:55+00:00 DEBUG (7): Array
+(
+    [Index] => 1
+    [attribute_set] => Custom
+    [type] => text
+    [input] => text
+    [lable] => city
+    [source] => 
+    [required] => TRUE
+    [name] => city
+    [group] => address
+)
+
+2022-05-16T12:16:55+00:00 DEBUG (7): Array
+(
+    [Index] => 2
+    [attribute_set] => Custom
+    [type] => text
+    [input] => text
+    [lable] => state
+    [source] => 
+    [required] => TRUE
+    [name] => state
+    [group] => address
+)
+

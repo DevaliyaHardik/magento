@@ -140,4 +140,20 @@ class Hd_Process_Block_Adminhtml_Process_Grid extends Mage_Adminhtml_Block_Widge
         return $this->getUrl('*/*/edit', array('id'=>$row->getId()));
     }
 
+    protected function _prepareMassaction()
+    {
+        $this->setMassactionIdField('process_id');
+        $this->getMassactionBlock()->setFormFieldName('process');
+
+        $this->getMassactionBlock()->addItem('delete', array(
+             'label'    => Mage::helper('process')->__('Delete'),
+             'url'      => $this->getUrl('*/*/massDelete'),
+             'confirm'  => Mage::helper('process')->__('Are you sure?')
+        ));
+        $this->getMassactionBlock()->addItem('delete_entrys', array(
+             'label'    => Mage::helper('process')->__('Delete Entrys'),
+             'url'      => $this->getUrl('*/*/massDeleteEntrys'),
+             'confirm'  => Mage::helper('process')->__('Are you sure?')
+        ));
+    }
 }

@@ -80,7 +80,7 @@ $installer->addAttribute(Hd_Vendor_Model_Resource_Vendor::ENTITY, 'mobile', arra
 $installer->addAttribute(Hd_Vendor_Model_Resource_Vendor::ENTITY, 'status', array(
 	'group' => 'General',
 	'input' => 'text',
-	'type' => 'integer',
+	'type' => 'int',
 	'label' => 'status',
 	'backend' => '',
 	'visible' => 1,

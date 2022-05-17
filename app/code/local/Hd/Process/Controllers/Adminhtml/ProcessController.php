@@ -77,6 +77,72 @@ class Hd_Process_Adminhtml_ProcessController extends Mage_Adminhtml_Controller_A
         $this->_redirect('process/adminhtml_process/index');
     }   
 
+    public function massDeleteAction() 
+    {
+        $sampleIds = $this->getRequest()->getParam('process');
+        if(!is_array($sampleIds)){
+            Mage::getSingleton('adminhtml/session')->addError(Mage::helper('adminhtml')->__('Please select item(s)'));
+        } 
+        else 
+        {
+            try
+            {
+                foreach ($sampleIds as $sampleId)
+                {
+                    $sample = Mage::getModel('process/process')->load($sampleId);
+                    $sample->delete();
+
+                }
+                Mage::getSingleton('adminhtml/session')->addSuccess(
+                Mage::helper('adminhtml')->__('Total of %d record(s) were successfully deleted', count($sampleIds)));
+            } 
+            catch (Exception $e)
+            {
+                Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+            }
+        }
+        $this->_redirect('process/adminhtml_process/index');
+    }
+
+    public function massDeleteEntrysAction()
+    {
+        $sampleIds = $this->getRequest()->getParam('process');
+        if(!is_array($sampleIds)){
+            Mage::getSingleton('adminhtml/session')->addError(Mage::helper('adminhtml')->__('Please select item(s)'));
+        } 
+        else 
+        {
+            try
+            {
+                $count = 0;
+                foreach ($sampleIds as $sampleId)
+                {
+                    $entryModel = Mage::getModel('process/entry');
+                    $select = $entryModel->getCollection()
+                        ->getSelect()
+                        ->reset(Zend_Db_Select::COLUMNS)
+                        ->columns(['entry_id'])
+                        ->where('process_id = ?', $sampleId);
+                        $entryIds = $entryModel->getResource()->getReadConnection()->fetchAll($select);
+                        foreach ($entryIds as $entryId) 
+                        {
+                            $entry = Mage::getModel('process/entry')->load($entryId['entry_id']);
+                            $entry->delete();
+                            $count++;
+                        }
+
+                }
+                //echo $count;
+                Mage::getSingleton('adminhtml/session')->addSuccess(
+                Mage::helper('adminhtml')->__('Total of '.$count.' record(s) were successfully deleted', count($count)));
+            } 
+            catch (Exception $e)
+            {
+                Mage::getSingleton('adminhtml/session')->addError($e->getMessage());
+            }
+        }
+        $this->_redirect('process/adminhtml_process/index');
+    }
 }
 
 ?>

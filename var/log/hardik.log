@@ -218,3 +218,16 @@
     [Outdor] => 4
 )
 
+2022-05-17T04:59:54+00:00 DEBUG (7): Array
+(
+    [Index] => 1
+    [attribute_set] => Custom
+    [type] => text
+    [input] => select
+    [lable] => Gender
+    [source] => eav/entity_attribute_source_table
+    [required] => TRUE
+    [name] => gender
+    [group] => default
+)
+

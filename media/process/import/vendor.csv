@@ -1,0 +1,2 @@
+Index,attribute_set,type,input,lable,source,required,name,group
+1,Custom,text,select,Gender,eav/entity_attribute_source_table,TRUE,gender,default
